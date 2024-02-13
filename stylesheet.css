@@ -1,0 +1,55 @@
+.boxease {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    text-align: center;
+
+    transition-property: width, height, background-color;
+    transition-duration: 3s, 3s, 3s;
+    transition-timing-function: ease;
+    transition-delay: 0ms;
+}
+
+.boxease:hover {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
+
+.boxeasein {
+    width: 200px;
+    height: 200px;
+    background-color: teal;
+    text-align: center;
+
+
+    transition-property: width, height, background-color;
+    transition-duration: 3s, 3s, 3s;
+    transition-timing-function: ease-in;
+    transition-delay: 0ms;
+}
+
+.boxeasein:hover {
+    width: 400px;
+    height: 400px;
+    background-color: violet;
+}
+
+.boxeaseout {
+    width: 200px;
+    height: 200px;
+    background-color: goldenrod;
+    text-align: center;
+
+
+    transition-property: width, height, background-color;
+    transition-duration: 3s, 3s, 3s;
+    transition-timing-function: ease-out;
+    transition-delay: 0ms;
+}
+
+.boxeaseout:hover {
+    width: 400px;
+    height: 400px;
+    background-color: yellowgreen;
+}
