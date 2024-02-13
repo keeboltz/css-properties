@@ -1,0 +1,72 @@
+@keyframes moveAround {
+    0% {
+        left: 0px;
+        top: 0px;
+        background-color: red;
+    }
+
+    25% {
+        left: 500px;
+        top: 0px;
+        background-color: crimson;
+    }
+
+    50% {
+        left: 500px;
+        top: 500px;
+        background-color: red;
+        border-radius: 100px;
+    }
+
+    75% {
+        left: 0px;
+        top: 500px;
+        background-color: crimson;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+        background-color: red;
+    }
+
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    text-align: center;
+
+    position: relative;
+
+    border: 5px solid black;
+
+    animation-name: moveAround;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal;
+
+}
+
+.border {
+
+    border: 12px dotted black;
+    width: 700px;
+    height: 700px;
+}
+
+.innerborder {
+    position: relative;
+    border: 12px dotted black;
+    width: 230px;
+    height: 210px;
+    margin-left: 230px;
+    margin-top: 40px;
+
+}
+
+p {
+    padding-top: 60px;
+}
